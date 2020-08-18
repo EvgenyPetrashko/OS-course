@@ -1,0 +1,85 @@
+    1  [2020-08-18 13:59:57] cd c:\users\dell\decktop\test
+    2  [2020-08-18 14:00:33] cd c:\users\dell\desktop\test
+    3  [2020-08-18 14:10:12] ./ex4
+    4  [2020-08-18 14:11:54] ./ex4.c
+    5  [2020-08-18 14:12:49] gcc main.c -o ex4
+    6  [2020-08-18 14:04:15] cd ex3.sh
+    7  [2020-08-18 14:06:03] sh ex3.sh
+    8  [2020-08-18 14:09:37] gcc main.c -o ex4
+    9  [2020-08-18 14:14:42] apt-get install gcc-core
+   10  [2020-08-18 14:18:08] gcc main.c -o ex4
+   11  [2020-08-18 14:20:07] gedit ~/week1/main.c
+   12  [2020-08-18 13:05:48] mkdir week1
+   13  [2020-08-18 13:06:19] rm -r week1
+   14  [2020-08-18 13:09:44] stdout "Hello"
+   15  [2020-08-18 13:09:49] help
+   16  [2020-08-18 13:11:11] man man
+   17  [2020-08-18 13:11:33] mkdir week1
+   18  [2020-08-18 13:11:35] mkdir week2
+   19  [2020-08-18 13:11:37] mkdir week3
+   20  [2020-08-18 13:11:56] ls | sort -r
+   21  [2020-08-18 13:18:50] ls -l/usr/bin/"gcc">ex1.txt
+   22  [2020-08-18 13:19:46] mkdir ~/week1
+   23  [2020-08-18 13:20:24] cd ~/week1
+   24  [2020-08-18 13:20:52] ls -l/usr/bin/"gcc">ex1.txt
+   25  [2020-08-18 13:22:11] cd ~/week1
+   26  [2020-08-18 13:22:57] ls -l/usr/bin/"gcc">ex1.txt
+   27  [2020-08-18 13:23:57] ls -l ~/usr/bin/"gcc">ex1.txt
+   28  [2020-08-18 13:25:08] ls -l /usr/bin/"gcc">ex1.txt
+   29  [2020-08-18 13:28:09] ls /usr/bin |sort -r | grep --ignore-casr "gcc" >ex1.txt
+   30  [2020-08-18 13:31:06] whoiam
+   31  [2020-08-18 13:31:23] whoami
+   32  [2020-08-18 13:31:52] man <subject>
+   33  [2020-08-18 13:32:15] man whoami
+   34  [2020-08-18 13:33:49] ~/week1/ex2.txt
+   35  [2020-08-18 13:34:18] histury>ex2.txt
+   36  [2020-08-18 13:34:32] history>ex2.txt
+   37  [2020-08-18 13:39:04] clear
+   38  [2020-08-18 13:39:23] cd usr/bin
+   39  [2020-08-18 13:41:38] ls /usr/bin|sort -r|grep --ignore-case "gcc" >ex1.txt
+   40  [2020-08-18 13:42:45] clear
+   41  [2020-08-18 13:43:02] mkdir ~/week1
+   42  [2020-08-18 13:43:26] cd ~/
+   43  [2020-08-18 13:43:30] mkdir ~/week1
+   44  [2020-08-18 13:44:56] rm -r week1
+   45  [2020-08-18 13:44:59] clear
+   46  [2020-08-18 13:45:06] mkdir ~/week1
+   47  [2020-08-18 13:45:18] cd ~/week1
+   48  [2020-08-18 13:45:57] ls /usr/bin |sort -r|grep --ignore-case "gcc" >ex1.txt
+   49  [2020-08-18 13:46:34] whoami
+   50  [2020-08-18 13:46:52] cd test
+   51  [2020-08-18 13:47:01] cs decktop/text
+   52  [2020-08-18 13:47:11] cd  decktop/text
+   53  [2020-08-18 13:47:32] pwd
+   54  [2020-08-18 13:48:02] history>ex2.txt
+   55  [2020-08-18 13:49:53] gedit ~/week1/main.c
+   56  [2020-08-18 13:50:14] apt -get install gedit
+   57  [2020-08-18 13:50:24] apt-get install gedit
+   58  [2020-08-18 14:27:25] ./ex4
+   59  [2020-08-18 14:27:28] ./ex4.c
+   60  [2020-08-18 14:31:38] gedit main.c
+   61  [2020-08-18 14:33:00] ./ex4.c
+   62  [2020-08-18 14:35:00] gedit main.c
+   63  [2020-08-18 14:38:28] gcc ~week1/main.c -o ex4new
+   64  [2020-08-18 14:38:39] apt-get install gcc-core
+   65  [2020-08-18 14:43:13] gcc ~week1/main.c -o ex4new
+   66  [2020-08-18 14:43:46] gcc
+   67  [2020-08-18 14:43:53] gcc main.c
+   68  [2020-08-18 14:44:17] gcc ~week1/main.c
+   69  [2020-08-18 14:44:30] gedit main.c
+   70  [2020-08-18 14:46:32] gcc ~week1/main.c
+   71  [2020-08-18 14:46:42] gcc ~week1/main.c ex4.txt
+   72  [2020-08-18 14:46:53] gcc week1/main.c ex4.txt
+   73  [2020-08-18 14:50:28] echo "#include <stdio.h>\\nint main(){\\n printf(\"hello world\");\\nreturn 0;\\n}"
+   74  [2020-08-18 14:50:50] echo "#include <stdio.h>\\nint main(){\\n printf(\"hello world\");\\nreturn 0;\\n}">~/week1/main.c
+   75  [2020-08-18 14:51:34] gcc -o ~/week1/ex4 ~/week1/main.c v
+   76  [2020-08-18 14:51:38] gcc -o ~/week1/ex4 ~/week1/main.c 
+   77  [2020-08-18 15:20:07] cd ~
+   78  [2020-08-18 15:22:11] echo -e "#include <stdio.h>\nint main(){\n printf(\"Hello world\");\n return 0;\n}" > ~/week1/main.c
+   79  [2020-08-18 15:22:29] gcc -o ~/week1/ex4
+   80  [2020-08-18 15:22:47] gcc -o ~/week1/ex4 ~/week1/main.c
+   81  [2020-08-18 15:24:59] ./ex4
+   82  [2020-08-18 15:25:21] ~/week1/ex4
+   83  [2020-08-18 17:04:02] cd
+   84  [2020-08-18 17:06:23] ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   85  [2020-08-18 17:07:44] history> ~/week1/ex2.txt
