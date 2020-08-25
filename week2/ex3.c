@@ -1,7 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int main() {
+int main(int args, char *argv[]) {
     int n;
-    scanf("%d", &n);
+    sscanf(argv[1],"%d", &n);
     int i = 1;
     while (i != n + 1){
         int num_spaces = (n - i);
