@@ -57,7 +57,7 @@ void delete(int position){
     }
 }
 
-int main3() {
+int main() {
     insert(3);
     insert(9);
     insert(4);
