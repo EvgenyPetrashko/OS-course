@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main1(){
+int main(){
  int* pc;
  int c;
  c=22;
