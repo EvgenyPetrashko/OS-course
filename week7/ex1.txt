@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   3485	   1884	    260	   5629	   15fd	test
