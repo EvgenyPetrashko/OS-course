@@ -1,0 +1,2 @@
+-Physical address related to physical memory(hardware addresses).
+-Viryual address related to the virtual memoty(memory of the process).
