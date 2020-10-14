@@ -1,0 +1,2 @@
+I increased the number of original page refences by 2 times and noticed that the Hit/Miss ratio increased on large page frames, but on less page framse ration became less.
+Since if there are more page refernces, then the ratio should also increase.
