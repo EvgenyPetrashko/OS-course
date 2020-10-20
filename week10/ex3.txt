@@ -1,0 +1,37 @@
+total 4
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1.txt
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1_1.txt
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1_2.txt
+-rw-------    1 dell     UsersGrp         0 Oct 20 13:44 _ex3.txt
+-rw-r--r--    1 dell     UsersGrp        82 Oct 20 11:21 ex1.txt
+-rwx------    1 dell     UsersGrp        28 Oct 20 12:23 ex2.txt
+-rw-r--r--    1 dell     UsersGrp         0 Oct 20 13:45 ex3.txt
+-rwx------    1 dell     UsersGrp       230 Oct 20 13:43 help.txt
+drwx------    1 dell     UsersGrp         0 Oct 20 13:38 week01
+drwx------    1 dell     UsersGrp         0 Oct 20 13:40 week10
+total 4
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1.txt
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1_1.txt
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1_2.txt
+-rwx---rwx    1 dell     UsersGrp         0 Oct 20 13:44 _ex3.txt
+-rw-r--r--    1 dell     UsersGrp        82 Oct 20 11:21 ex1.txt
+-rwx------    1 dell     UsersGrp        28 Oct 20 12:23 ex2.txt
+-rw-r--r--    1 dell     UsersGrp       665 Oct 20 13:45 ex3.txt
+-rwx------    1 dell     UsersGrp       230 Oct 20 13:43 help.txt
+drwx------    1 dell     UsersGrp         0 Oct 20 13:38 week01
+drwx------    1 dell     UsersGrp         0 Oct 20 13:40 week10
+total 4
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1.txt
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1_1.txt
+-rwx------    3 dell     UsersGrp         0 Oct 20 09:59 _ex1_2.txt
+-rwxrwxrwx    1 dell     UsersGrp         0 Oct 20 13:44 _ex3.txt
+-rw-r--r--    1 dell     UsersGrp        82 Oct 20 11:21 ex1.txt
+-rwx------    1 dell     UsersGrp        28 Oct 20 12:23 ex2.txt
+-rw-r--r--    1 dell     UsersGrp      1330 Oct 20 13:46 ex3.txt
+-rwx------    1 dell     UsersGrp       230 Oct 20 13:43 help.txt
+drwx------    1 dell     UsersGrp         0 Oct 20 13:38 week01
+drwx------    1 dell     UsersGrp         0 Oct 20 13:40 week10
+
+660 - means that owner(user) and group can only read and write and others have not permissions
+775 - means that owner(user) and group can do everythin and others can only read and execute
+777 - means no restrictions on everybody
