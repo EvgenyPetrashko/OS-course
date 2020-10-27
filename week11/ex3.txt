@@ -1,0 +1,6 @@
+1 output: Hello\nHello\n
+2 output: Hello\n\n
+
+This happens since stdout is line buffered:
+In the first case, after printing "Hello" buffer will contain "Hello". At the same time in the second case, buffer will be empty since \n empties the buffer.
+So child proccess has the same buffer as a parent hence why in the first case it was printed again, and in the second nothing was printed
