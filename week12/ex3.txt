@@ -1,0 +1,35 @@
+-DBUF_SIZ = 32
+FILE_SIZE = 102 KB
+WITHOUT O_SYNC:
+real    0m 0.05s
+user    0m 0.01s
+sys     0m 0.01s
+
+-DBUF_SIZ = 32
+FILE_SIZE = 102 KB
+WITH O_SYNC:
+real    1m 6.64s
+user    0m 0.00s
+sys     0m 0.46s
+
+-DBUF_SIZ = 512
+FILE_SIZE = 1019 KB
+WITHOUT O_SYNC:
+real    0m 0.05s
+user    0m 0.00s
+sys     0m 0.03s
+
+
+-DBUF_SIZ = 512
+FILE_SIZE = 1019 KB
+WITHOUT O_SYNC:
+real    0m 40.29s
+user    0m 0.01s
+sys     0m 0.43s
+
+Conclusion:
+Bigger buffer size increases the speed of the programm.
+Bigger file size decrease the speed of the programm.
+O_SYNC flag greatly reduces the speed of the programm.
+                  
+
